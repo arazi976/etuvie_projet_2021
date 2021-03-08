@@ -10,6 +10,8 @@
         <?php include ("head2.php");?>
         <h1> <?php echo "Frequency Asked Questions" ?></h1>  
             <p> Test 1 : </p>
+            <h2> TEST 2</h2>
+            sss
         <?php require ("foot2.php");?>
         </body>
     </html>
