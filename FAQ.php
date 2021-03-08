@@ -9,6 +9,7 @@
         
         <?php include ("head2.php");?>
         <h1> <?php echo "Frequency Asked Questions" ?></h1>  
+            <p> Test 1 : </p>
         <?php require ("foot2.php");?>
         </body>
     </html>
