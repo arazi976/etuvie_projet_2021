@@ -1,0 +1,218 @@
+/*--------------------------------------------General*/
+*{
+margin: 0;
+padding: 0;
+}
+/* -----------------------------------------------------------------------Style Head*/ 
+.header{
+	display: block;
+	width: 100%;
+	height: 4em;
+	position: absolute;
+	background-color: #115A83;
+	top: 0;
+	overflow: hidden;
+	position: sticky;
+	overflow: hidden;
+}	
+
+
+.ident{
+	display: block;
+    position: absolute;
+    padding-top: 1em;    
+    padding-bottom: 1em;
+    text-align: center right;
+    right: 10px;
+}
+
+.ident a {
+
+/*text-decoration: none;*/
+color: white;
+padding: 10px;
+
+}
+
+
+.logo img{
+	padding: 0.5em;
+	display: block;
+	border-radius: 100px;
+	height: 3em;
+	width: 3em;
+	left: 10px;
+	position: absolute;
+
+}
+
+
+/* t-----------------------------------------------------------------------Style Foot*/  
+.footer{
+		background-color: #115A83;
+		position: fixed;
+		border: 1px solid #115A83;
+		padding-top:1em; 
+		padding-bottom: 50px; 
+		width: 100%;
+		bottom: 0px;
+		 
+		    
+}
+.footer ul{
+		text-align: center;
+}
+
+.footer ul a {
+
+		text-decoration: none;
+		color: white;
+
+
+}
+/* -----------------------------------------------------------------------Style Menu*/ 
+.menu_bouton{
+
+
+	margin: .5em;
+	border: solid .125em transparent;
+	padding: 0;
+	width: 8.5em; height:2em ;
+	border-radius: 1em;
+	color: #fff;
+    font: Condensed;
+    font-family: Arial;
+    font-size: 20px;
+	filter: contrast(.65);
+    border-radius: 0.5em;
+    box-shadow: inset 0 1px 1px #9c9c9c;
+    background-color: #115A83
+	}
+
+.position_menu {
+    
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
+		position: fixed;
+		object-position: bottom ;
+	}
+	
+.liens_formulaire {
+		
+		text-decoration: none;
+		text-decoration-color: #fff;
+	}
+/*  -----------------------------------------------------------------------Style formulaire d'incription*/ 
+
+.formulaire{
+    
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:blue ;
+}
+
+/*  -----------------------------------------------------------------------Style Classement*/
+
+.tableau{
+	margin: 20px;
+}
+
+.classement{
+	border-collapse: collapse;
+	border-spacing:2em;
+	width : 80%;
+	margin-left : auto;
+	margin-right :auto;	
+	padding: 5em;
+	background-color: #FFEDED;
+		
+}
+
+.classement th, td {
+	padding: 20px;
+	color: white;
+
+  
+}
+.classement a{
+	text-decoration: none;
+	color: white;
+	}
+
+
+.classement th{
+	text-align: center;
+
+	background-color: #115A83;
+	}
+
+.classement tr{
+	background-color: #A4AFCC;
+	}
+
+.classement .nom{
+	text-align:center;
+	width: 30%;
+
+}
+.classement .image{
+	text-align:center;
+	width: 5%;
+
+}
+.classement .info{
+	text-align: right;
+	width: 50%;
+
+
+}
+
+.classement .note{
+	text-align: center;
+	width: 15%;
+
+}
+
+
+/*------------------------------------------------------------------Page Comparaison*/
+ #graphique_comparaison{
+	border:1px solid red;
+	width:400px;
+	position:relative;
+	border:1px solid #e5ddd5;
+	padding:5px;
+    background-color: #115A83;
+    
+}
+
+#criteres{
+	position:relative;
+	left:100px;
+	width:300px;
+	margin-top:1px;
+	
+}
+#criteres_name{
+	position:absolute;
+	left:-100px;
+	width:100px;
+	border:1px solid #cccccc;
+	border-left:none;
+	border-right:none;
+	font-weight:bold;
+}
+#note{
+	position:relative;
+	left:0px;
+	top:0px;
+	border:1px solid #000;
+	text-align:right;
+	font-size:0.9em;
+	padding-right:0.2em;
+	padding-left:-0.2em;
+}
+
+
+
