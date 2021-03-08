@@ -8,14 +8,9 @@
         <body>
         
         <?php include ("head2.php");?>
-            
-            
-           
-
+			<h1>Mentions légales </h1>
 		<?php include ("foot2.php");?>
 	
-			
-
         </body>
     </html>
    
